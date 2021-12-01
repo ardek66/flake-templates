@@ -13,7 +13,12 @@
         path = ./nim;
         description = "Nim flake";
       };
-    
+
+      haskell = {
+        path = ./haskell;
+        description = "Haskell flake";
+      };
+      
     };
   };
 }

@@ -3,6 +3,11 @@
 
   outputs = { self }: {
     templates = {
+
+      simple = {
+        path = ./simple;
+        description = "Simple flake";
+      };
       
       ocaml = {
         path = ./ocaml;

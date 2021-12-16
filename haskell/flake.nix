@@ -14,7 +14,7 @@
 
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
-            (haskellPackages.ghcWithPackages (p: [ p.haskell-language-server ]))
+            (haskellPackages.ghcWithPackages (p: [ p.hlint ]))
           ];
         };
       });

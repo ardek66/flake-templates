@@ -23,6 +23,11 @@
         path = ./haskell;
         description = "Haskell flake";
       };
+
+      elixir = {
+        path = ./elixir;
+        description = "Elixir flake";
+      };
       
     };
   };

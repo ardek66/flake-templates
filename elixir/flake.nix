@@ -14,7 +14,7 @@
         packages.dummy = beamPkgs.mixRelease {
           pname = "dummy";
           version = "0.1.0";
-          src = ./.;
+          src = ./src;
           buildInputs = [ beamPkgs.elixir_1_13 ];
         };
 
